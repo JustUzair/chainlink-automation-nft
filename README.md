@@ -1,19 +1,19 @@
 # Contract Deployment & Interactions
 - Polygon 
-    - ```bash
+    ```bash
      forge script script/PolyNFT.s.sol --rpc-url mumbai  --broadcast
     ```
 - Anvil (Local Testnet)
-    - ```bash
+    ```bash
     forge script script/PolyNFT.s.sol  --broadcast
     ```
 - Mint NFT 
     - Mumbai Testnet
-        - ```bash 
+        ```bash 
         forge script ./script/Mint.s.sol --rpc-url mumbai --broadcast
         ```
     - Anvil (Local Testnet)
-        - ```bash 
+        ```bash 
         forge script ./script/Mint.s.sol --broadcast
         ```
 # Register your upkeep 
