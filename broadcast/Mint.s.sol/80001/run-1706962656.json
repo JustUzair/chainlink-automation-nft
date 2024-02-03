@@ -1,0 +1,41 @@
+{
+  "transactions": [
+    {
+      "hash": "0x0f118eecd667bcc99c59740f2e375a49a6fcbd854b0fc28748b2d4ddbafd3c1b",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x155d5EF456C97C9193b9d4A2f835fDDE1A22e853",
+      "function": "safeMint(address)",
+      "arguments": [
+        "0x6CA6d1e2D5347Bfab1d91e883F1915560e09129D"
+      ],
+      "transaction": {
+        "type": "0x02",
+        "from": "0x79f21d75dd65a42e6083d5117174b1704b804bd8",
+        "to": "0x155d5ef456c97c9193b9d4a2f835fdde1a22e853",
+        "gas": "0x41ce6",
+        "value": "0x0",
+        "data": "0x40d097c30000000000000000000000006ca6d1e2d5347bfab1d91e883f1915560e09129d",
+        "nonce": "0x5",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x0f118eecd667bcc99c59740f2e375a49a6fcbd854b0fc28748b2d4ddbafd3c1b"
+  ],
+  "returns": {
+    "0": {
+      "internal_type": "contract PolyNFT",
+      "value": "0x0000000000000000000000000000000000000000"
+    }
+  },
+  "timestamp": 1706962656,
+  "chain": 80001,
+  "multi": false,
+  "commit": "c95f13d"
+}

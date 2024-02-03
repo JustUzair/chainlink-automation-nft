@@ -1,3 +1,27 @@
+# Contract Deployment & Interactions
+- Polygon 
+    - ```bash
+     forge script script/PolyNFT.s.sol --rpc-url mumbai  --broadcast
+    ```
+- Anvil (Local Testnet)
+    - ```bash
+    forge script script/PolyNFT.s.sol  --broadcast
+    ```
+- Mint NFT 
+    - Mumbai Testnet
+        - ```bash 
+        forge script ./script/Mint.s.sol --rpc-url mumbai --broadcast
+        ```
+    - Anvil (Local Testnet)
+        - ```bash 
+        forge script ./script/Mint.s.sol --broadcast
+        ```
+# Register your upkeep 
+- [Register Upkeep](https://automation.chain.link/mumbai/new)
+
+# My Upkeep 
+- [My delpoyed upkeep](https://automation.chain.link/mumbai/92164094583053689368817238014580478617569546811640518785765277593070809337196)
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
